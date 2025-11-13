@@ -17,7 +17,7 @@ jobs:
           node-version: 20.x
 
       - name: Install dependencies
-        run: npm npm install 
+        run: npm install 
 
       - name: Run tests
         run: npm test  # Ensure you have a "test" script in package.json
